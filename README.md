@@ -72,21 +72,27 @@ jupyter lab
 
 This will launch Jupyter Lab in your default web browser, where you can open and run `.ipynb` notebooks.
 
-### Running the Project Script
+### Running the Project Script (in Jupyter notebook)
 
-If you have a Python script (e.g., `main.py`), you can execute it as follows:
+You can view the main code in the notebooks folder, and the default main file is 
 
 ```bash
-python main.py
+main.ipynb
 ```
-
-Make sure to update `main.py` with the correct data paths and parameters as needed.
 
 ---
 
 ## Future Usage
 
-For future use, whenever you want to work on this project, follow these steps:
+For future use, whenever you want to work on this project, follow approaches:
+
+1. you can simply run the script to activate the environment and start Jupyter Lab:
+
+```bash
+./start_project.sh
+```
+
+ Or you can set the process step by step:
 
 1. Open a terminal and navigate to the project directory:
    ```bash
@@ -110,11 +116,7 @@ For future use, whenever you want to work on this project, follow these steps:
 
 ---
 
-Or, you can simply run the script to activate the environment and start Jupyter Lab:
-
-```bash
-./start_project.sh
-```
+Or, 
 
 ---
 
@@ -148,5 +150,3 @@ If you would like to contribute to this project, please follow these steps:
   ```
 
 ```
-
----
