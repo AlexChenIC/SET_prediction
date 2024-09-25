@@ -50,7 +50,7 @@ This will create a new Conda environment named `ml_project_env` (as specified in
 
 ---
 
-## Usage
+## Usage (First Time)
 
 ### Activating the Environment
 
@@ -86,7 +86,7 @@ main.ipynb
 
 For future use, whenever you want to work on this project, follow approaches:
 
-1. you can simply run the script to activate the environment and start Jupyter Lab:
+You can simply run the script to activate the environment and start Jupyter Lab:
 
 ```bash
 ./start_project.sh
@@ -113,10 +113,6 @@ For future use, whenever you want to work on this project, follow approaches:
    ```bash
    conda deactivate
    ```
-
----
-
-Or, 
 
 ---
 
