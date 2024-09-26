@@ -1,0 +1,3 @@
+Model,Best Model,MSE,R²
+Linear Regression,LinearRegression(),2690.5815706559065,0.8872307120338159
+Random Forest,RandomForestRegressor(),1840.5697194673492,0.9228569246960784
