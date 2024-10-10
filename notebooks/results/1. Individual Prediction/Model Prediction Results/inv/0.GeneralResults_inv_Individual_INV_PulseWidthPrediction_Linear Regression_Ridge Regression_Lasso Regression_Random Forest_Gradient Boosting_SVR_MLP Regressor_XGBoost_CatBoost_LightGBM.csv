@@ -1,0 +1,21 @@
+Model,Best Model,MSE,R²,MAE,Explained Variance
+Linear Regression,LinearRegression(),2682.8926594708973,0.8875529743465533,32.11243894467179,0.8875531456222595
+Ridge Regression,Ridge(alpha=1),2682.87723439566,0.8875536208516698,32.11153014034992,0.8875537940744386
+Lasso Regression,Lasso(alpha=0.1),2682.492465276215,0.8875697475285579,32.044574769883475,0.8875700677623659
+Random Forest,RandomForestRegressor(),5.9491417734120065,0.9997506559588774,0.8565122721354258,0.9997507344291215
+Gradient Boosting,"GradientBoostingRegressor(learning_rate=0.2, n_estimators=200)",448.09990226474446,0.9812189649006652,12.740957963402595,0.9812220198307915
+SVR,"SVR(C=10, kernel='linear')",2816.487016815508,0.881953686550057,30.14319560686697,0.8838903657684104
+MLP Regressor,"MLPRegressor(activation='tanh', learning_rate='adaptive', max_iter=1000)",161.3207611420884,0.9932386263376801,7.524838895596697,0.9933197404369654
+XGBoost,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=0.2, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=10, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=500, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",4.3712831975630415,0.9998167881252649,0.6984199785610995,0.9998167921110865
+CatBoost,<catboost.core.CatBoostRegressor object at 0x7babbec8d040>,9.410551213058994,0.9996055792653752,1.3881775705674038,0.9996055826381663
+LightGBM,"LGBMRegressor(n_estimators=500, num_leaves=50)",15.296306498828157,0.9993588919171981,1.6631741378788918,0.9993589760561966

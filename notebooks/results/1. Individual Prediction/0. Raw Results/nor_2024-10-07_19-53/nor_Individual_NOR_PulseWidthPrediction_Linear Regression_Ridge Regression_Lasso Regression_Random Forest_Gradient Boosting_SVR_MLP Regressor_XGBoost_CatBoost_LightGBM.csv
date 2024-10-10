@@ -1,0 +1,21 @@
+Model,Best Model,MSE,R²,MAE,Explained Variance
+Linear Regression,LinearRegression(),12875.402735948968,0.7357734775698823,80.18225385842004,0.7361844275156069
+Ridge Regression,Ridge(alpha=1),12875.436016216841,0.7357727945986676,80.18021568905492,0.7361835860623115
+Lasso Regression,Lasso(alpha=0.1),12876.511970143616,0.7357507140804735,80.17395490854963,0.7361605993481353
+Random Forest,"RandomForestRegressor(max_depth=20, n_estimators=200)",63.18659437033383,0.9987032969424668,2.588732357177734,0.9987040932095843
+Gradient Boosting,"GradientBoostingRegressor(learning_rate=0.2, n_estimators=200)",3032.350936795394,0.9377706811003219,40.56068412118969,0.9377773426030074
+SVR,"SVR(C=10, kernel='linear')",13711.583108431052,0.7186135458398728,75.2865214156945,0.7186844993752095
+MLP Regressor,"MLPRegressor(activation='tanh', learning_rate='adaptive', max_iter=1000)",1373.9395811959812,0.9718042778922248,24.18298802115532,0.9725049083599268
+XGBoost,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=0.1, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=10, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=200, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",58.3849529124425,0.998801835298928,2.5429594102897752,0.998802021994511
+CatBoost,<catboost.core.CatBoostRegressor object at 0x7babbdc87e50>,47.31861455308179,0.999028936552434,2.3737678861860365,0.999028938646853
+LightGBM,"LGBMRegressor(learning_rate=0.2, n_estimators=500, num_leaves=50)",110.07249568553176,0.9977411135522007,4.829365081663146,0.997741578650001

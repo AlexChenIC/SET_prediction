@@ -1,0 +1,21 @@
+Model,Best Model,MSE,R²,MAE,Explained Variance
+Linear Regression,LinearRegression(),6098.170740116927,0.79847694397587,50.19239402479396,0.7984952789945227
+Ridge Regression,Ridge(alpha=1),6098.1467198320715,0.7984777377616488,50.191521177987376,0.798496072067434
+Lasso Regression,Lasso(alpha=0.1),6098.367663335326,0.7984704363573618,50.10101752451698,0.7984887799182948
+Random Forest,"RandomForestRegressor(max_depth=20, n_estimators=200)",25.29624507695647,0.9991640482316594,1.5178770469834726,0.9991649956992977
+Gradient Boosting,"GradientBoostingRegressor(learning_rate=0.2, n_estimators=200)",1521.7932487622552,0.9497100951749379,23.444646520644305,0.9497101618422354
+SVR,"SVR(C=10, kernel='linear')",6289.285072300536,0.7921612886895582,53.569977300821,0.7921903915630121
+MLP Regressor,"MLPRegressor(activation='tanh', learning_rate='adaptive', max_iter=1000)",735.1622262958924,0.9757054787688987,15.658862664146497,0.9768951351764659
+XGBoost,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=0.2, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=10, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=500, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",20.986232497972512,0.9993064789610427,1.3728131552423117,0.9993065400839845
+CatBoost,<catboost.core.CatBoostRegressor object at 0x7babbe6a0d00>,22.597223315491334,0.9992532413908585,2.1654080278137107,0.9992533568328403
+LightGBM,"LGBMRegressor(learning_rate=0.2, n_estimators=500, num_leaves=50)",35.337824365975635,0.9988322094177149,2.8828652439802007,0.9988322102679051

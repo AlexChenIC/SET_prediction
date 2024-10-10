@@ -1,8 +1,0 @@
-Model,Best Model,MSE,R²
-Linear Regression,LinearRegression(),2690.5815706559065,0.8872307120338159
-Ridge Regression,Ridge(alpha=10),2690.11593251703,0.8872502281421337
-Lasso Regression,Lasso(alpha=0.1),2688.7347091167344,0.8873081188156863
-Random Forest,RandomForestRegressor(max_depth=20),995.2022644714478,0.9582884786059764
-Gradient Boosting,GradientBoostingRegressor(),764.8169856982863,0.967944526253254
-SVR,"SVR(C=10, kernel='linear')",2816.8119404767017,0.8819400681523412
-MLP Regressor,"MLPRegressor(activation='tanh', learning_rate='adaptive', max_iter=1000)",909.8751103495621,0.9618647620829202

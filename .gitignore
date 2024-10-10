@@ -12,3 +12,6 @@ __pycache__/
 # Ignore Anaconda environment files
 *.conda
 
+# 忽略所有 .pkl 文件
+*.pkl
+

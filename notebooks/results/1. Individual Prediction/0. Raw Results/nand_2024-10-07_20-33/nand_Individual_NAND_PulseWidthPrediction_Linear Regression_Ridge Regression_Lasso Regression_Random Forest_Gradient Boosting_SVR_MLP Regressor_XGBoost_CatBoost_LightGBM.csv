@@ -1,0 +1,21 @@
+Model,Best Model,MSE,R²,MAE,Explained Variance
+Linear Regression,LinearRegression(),4080.7659546986933,0.8617726269724999,45.96321458802529,0.8618028790745185
+Ridge Regression,Ridge(alpha=1),4080.5220725967592,0.8617808879663067,45.95652758153998,0.8618109384844742
+Lasso Regression,Lasso(alpha=0.1),4078.4008461387493,0.8618527400558758,45.88061010864878,0.861880710259027
+Random Forest,"RandomForestRegressor(max_depth=20, n_estimators=1000)",30.01574486775573,0.9989832797056748,2.23697528623505,0.9989833533445553
+Gradient Boosting,"GradientBoostingRegressor(learning_rate=0.2, n_estimators=200)",495.1661925991524,0.9832272855697102,15.319958313173805,0.9832417749228051
+SVR,"SVR(C=10, kernel='linear')",4810.851399805886,0.837042516428772,40.65797523545823,0.8453476801017803
+MLP Regressor,"MLPRegressor(activation='tanh', max_iter=1000)",375.9684891673081,0.9872648573391286,12.666314946056627,0.9873753491313636
+XGBoost,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=0.1, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=10, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=200, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",16.194120502650126,0.9994514581918146,1.6494670295843754,0.9994525715198536
+CatBoost,<catboost.core.CatBoostRegressor object at 0x7babbc6621f0>,6.760992240841941,0.999770985592684,1.353970827198617,0.9997710287124911
+LightGBM,"LGBMRegressor(learning_rate=0.2, n_estimators=500, num_leaves=50)",15.429894932414157,0.9994773447273686,2.0801324461353294,0.9994777165333959
