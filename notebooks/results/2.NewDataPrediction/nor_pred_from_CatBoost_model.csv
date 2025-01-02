@@ -1,0 +1,5 @@
+Starget,Sload,Vdd,Vin,Temperature,gate_type,input_pulse_width,predicted_pulse_width
+0,0,0.8,-0.8,25,nor,125,11.343365126651548
+0,0,0.8,-0.8,25,nor,250,106.67196533706726
+0,0,0.8,-0.8,25,nor,350,214.80169334598332
+0,0,0.8,-0.8,25,nor,450,417.45746820467787
