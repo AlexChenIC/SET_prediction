@@ -1,0 +1,17 @@
+Experiment,Circuit Path,Final Output Pulse Width,Starget,Sload,Vdd,Vin,Temperature,Input_Pulse_Width
+Best Individual - Setting 0,Path 1,108.77707571465734,0,0,1.2,-1.2,50,150
+Best Individual - Setting 0,Path 2,101.68513488769531,0,0,1.2,-1.2,50,150
+Best Individual - Setting 1,Path 1,510.15214576764913,0,0,1.1,-1.1,80,380
+Best Individual - Setting 1,Path 2,300.36279296875,0,0,1.1,-1.1,80,380
+Best Individual - Setting 2,Path 1,207.93430081944615,0,0,1.2,-1.2,-20,240
+Best Individual - Setting 2,Path 2,202.685302734375,0,0,1.2,-1.2,-20,240
+Best Individual - Setting 3,Path 1,512.2051278386459,0,0,1.0,-1.0,100,480
+Best Individual - Setting 3,Path 2,499.9274597167969,0,0,1.0,-1.0,100,480
+MLP - Setting 0,Path 1,157.35705646799613,0,0,1.2,-1.2,50,150
+MLP - Setting 0,Path 2,214.77444916186013,0,0,1.2,-1.2,50,150
+MLP - Setting 1,Path 1,333.8044008518469,0,0,1.1,-1.1,80,380
+MLP - Setting 1,Path 2,379.10354380181906,0,0,1.1,-1.1,80,380
+MLP - Setting 2,Path 1,257.37210153286463,0,0,1.2,-1.2,-20,240
+MLP - Setting 2,Path 2,285.0850218442787,0,0,1.2,-1.2,-20,240
+MLP - Setting 3,Path 1,449.64010432749023,0,0,1.0,-1.0,100,480
+MLP - Setting 3,Path 2,482.9121297583072,0,0,1.0,-1.0,100,480
